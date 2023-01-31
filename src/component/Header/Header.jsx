@@ -24,7 +24,7 @@ const Header = () => {
     return () => {
       setInterval(() => {
         setCounter((prev) => prev + 1);
-      }, 3000);
+      }, 12000);
     };
   }, []);
   useEffect(() => {
@@ -43,6 +43,7 @@ const Header = () => {
             <div>Find A Tutor</div>
             <div>How It Works</div>
             <div>About Us</div>
+            <div className="sign-in">Sign In</div>
           </div>
         </nav>
         {/* <div className="">{counter}</div> */}
@@ -53,6 +54,10 @@ const Header = () => {
             <br />
             MEETS. <br />
             DISCOVERY.
+            <div className="header__hero-content__quote">
+              Meet Tech Masters Today To Answer All Your Questions!
+            </div>
+            <button className="hero-btn">See How We Can Help</button>
           </div>
         </div>
       </header>
