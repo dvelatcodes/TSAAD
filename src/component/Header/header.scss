@@ -76,7 +76,8 @@
     width: 100%;
     height: 35rem;
     display: flex;
-    padding: 1.5rem 0 0 0rem;
+    justify-content : space-around;
+    padding: 0.5rem 0 0 0rem;
     transition: all ease-in-out 1s;
 }
 
@@ -85,7 +86,8 @@
     width: 100%;
     height: 35rem;
     display: flex;
-    padding: 1.5rem 0 0 0rem;
+    justify-content : space-around;
+    padding: 0.5rem 0 0 0rem;
     transition: all ease-in-out 1s;
 }
 
@@ -95,7 +97,8 @@
     width: 100%;
     height: 35rem;
     display: flex;
-    padding: 1.5rem 0 0 0rem;
+    justify-content : space-around;
+    padding: 0.5rem 0 0 0rem;
     transition: all ease-in-out 1s;
 }
 .header__hero4{
@@ -103,7 +106,8 @@
     width: 100%;
     height: 35rem;
     display: flex;
-    padding: 1.5rem 0 0 0rem;
+    justify-content : space-around;
+    padding: 0.5rem 0 0 0rem;
     transition: all ease-in-out 1s;
 }
 .header__hero5{
@@ -111,7 +115,8 @@
     width: 100%;
     height: 35rem;
     display: flex;
-    padding: 1.5rem 0 0 0rem;
+    justify-content : space-around;
+    padding: 0.5rem 0 0 0rem;
     transition: all ease-in-out 1s;
 }
 
@@ -125,48 +130,59 @@
 
 
 .header__hero-img1{
-    background-image: url("../../assets/images/woman-with-satisfied-expression.png");
+    background-image: url("../../assets/images/black-man-with-laptop.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     width: 50%;
-    height: 30rem;
-    margin-right: 3rem;
+    height: 34.5rem;
+    padding: 0;
     transition: all ease-in-out 1s;
 }
 .header__hero-img2{
-    background-image: url("../../assets/images/teenage-boy-with-dark-skin-curly-hairs.png");
+    background-image: url("../../assets/images/thinking-woman-posing-with-laptop2.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     width: 50%;
-    height: 30rem;
-    margin-right: 3rem;
+    height: 34.5rem;
+    padding: 0;
     transition: all ease-in-out 1s;
 }
 .header__hero-img3{
-    background-image: url("../../assets/images/curious-grey-haired-man.png");
+    background-image: url("../../assets/images/lady-on-singlet-with-laptop.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     width: 50%;
-    height: 30rem;
-    margin-right: 3rem;
+    height: 34.5rem;
+    padding: 0;
     transition: all ease-in-out 1s;
 }
 .header__hero-img4{
-    background-image: url("../../assets/images/african-man-wearing-red-sweater.png");
+    background-image: url("../../assets/images/asian-girl-with-laptop.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     width: 50%;
-    height: 30rem;
-    margin-right: 3rem;
+    height: 34.5rem;
+    padding: 0;
     transition: all ease-in-out 1s;
 }
 .header__hero-img5{
-    background-image: url("../../assets/images//women-stand-closely-each-other.png");
+    background-image: url("../../assets/images/laughing-black-man-holding-computer.png");
     background-size:cover;
+    background-position-x: center;
+    background-position-y: top;
     background-repeat: no-repeat;
     width: 50%;
-    height: 30rem;
-    margin-right: 3rem;
+    height: 34.5rem;
+    padding: 0;
+    margin: 0;
     transition: all ease-in-out 1s;
 }
 
@@ -179,6 +195,6 @@
     font-size: 3.9rem;
     width: 30%;
     line-height: 4.6rem;
-    margin-top: 3.5rem;
+    padding-top: 7rem;
     text-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
 }

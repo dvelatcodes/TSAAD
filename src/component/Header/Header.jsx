@@ -24,7 +24,7 @@ const Header = () => {
     return () => {
       setInterval(() => {
         setCounter((prev) => prev + 1);
-      }, 10000);
+      }, 3000);
     };
   }, []);
   useEffect(() => {
