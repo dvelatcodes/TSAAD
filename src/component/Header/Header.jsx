@@ -55,7 +55,7 @@ const Header = () => {
             MEETS. <br />
             DISCOVERY.
             <div className="header__hero-content__quote">
-              Meet Tech Masters Today To Answer All Your Questions!
+              Meet Tech Masters Today <br /> To Answer All Your Questions!
             </div>
             <button className="hero-btn">See How We Can Help</button>
           </div>

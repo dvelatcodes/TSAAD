@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // background-color: rgba(0, 225, 60, 0.687);
     background-color: rgba(1, 120, 32, 0.687);
     transition: all ease-in-out 1s;
 }
@@ -137,14 +136,6 @@
 }
 
 
-// .header__hero-img{
-//     width: 50%;
-//     height: 30rem;
-//     margin-right: 3rem;
-//     transition: all ease-in-out 2s;
-// }
-
-
 .header__hero-img1{
     background-image: url("../../assets/images/lady-on-singlet-with-laptop.png");
     background-size:cover;
@@ -222,7 +213,7 @@
         letter-spacing: 0.2rem;
         font-family: 'EB Garamond', serif;
         position: relative;
-        left: -1.5rem;
+        // left: -1.5rem;
         top: 0.6rem;
     }
 
@@ -230,7 +221,7 @@
         width: fit-content;
         padding: 1rem 2rem 1rem 2rem;
         border-radius: 7px;
-        box-shadow: 0 0 25 rgba(0, 0, 0, 0.5);
+        // box-shadow: 0 0 25 rgba(0, 0, 0, 0.5);
         border-width: thin;
         border-color: rgb(158, 158, 158);
         cursor: pointer;
@@ -242,5 +233,6 @@
         color: white;
         transition: all ease-in-out 0.2s;
         font-weight: bold;
+        box-shadow: 5px 5px 20px rgba(95, 95, 95, 0.5);
     }
 }
