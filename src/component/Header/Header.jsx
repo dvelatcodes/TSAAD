@@ -27,6 +27,7 @@ const Header = () => {
       }, 12000);
     };
   }, []);
+  
   useEffect(() => {
     return () => {
       if (counter === 4) setCounter(0);
