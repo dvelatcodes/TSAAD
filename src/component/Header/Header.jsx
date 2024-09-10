@@ -22,17 +22,15 @@ const Header = () => {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
-    return () => {
-      setInterval(() => {
-        setCounter((prev) => prev + 1);
-      }, 12000);
-    };
+   const intervalId = setInterval(() => {
+      setCounter((prev) => prev + 1);
+    }, 12000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   useEffect(() => {
-    return () => {
-      if (counter === 4) setCounter(0);
-    };
+    if (counter === 4) setCounter(0);
   }, [counter]);
 
   return (
