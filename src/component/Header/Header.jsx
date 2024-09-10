@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from "react";
 import "./header.scss";
-import image1 from "../../assets/images/woman-with-satisfied-expression.png";
+
+const navClasses = ["nav1", "nav2", "nav3", "nav4", "nav5"];
+
+const heroClasses = [
+  "header__hero1",
+  "header__hero2",
+  "header__hero3",
+  "header__hero4",
+  "header__hero5",
+];
+const imgClasses = [
+  "header__hero-img1",
+  "header__hero-img2",
+  "header__hero-img3",
+  "header__hero-img4",
+  "header__hero-img5",
+];
 
 const Header = () => {
-  const navClasses = ["nav1", "nav2", "nav3", "nav4", "nav5"];
-  const heroClasses = [
-    "header__hero1",
-    "header__hero2",
-    "header__hero3",
-    "header__hero4",
-    "header__hero5",
-  ];
-  const imgClasses = [
-    "header__hero-img1",
-    "header__hero-img2",
-    "header__hero-img3",
-    "header__hero-img4",
-    "header__hero-img5",
-  ];
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
@@ -27,7 +28,7 @@ const Header = () => {
       }, 12000);
     };
   }, []);
-  
+
   useEffect(() => {
     return () => {
       if (counter === 4) setCounter(0);
